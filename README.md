@@ -13,4 +13,8 @@
 
 <h2>Instruções para primeiro uso</h2>
 
-<p>Assim que o projeto estiver com seu container rodando, a primeira coisa a se fazer é criar um usuário pelo metodo <b>POST</b> na rota <b>/register</b> informando <b>nome, email, senha e confirmação de senha</b> </p>
+<p>Assim que o projeto estiver com seu container rodando, a primeira coisa a se fazer é criar um usuário pelo metodo <b>POST</b> na rota <b>/register</b> informando <b>nome, email, senha e confirmação de senha</b>.</p>
+
+<p>Logo após acesse a rota <b>/login</b> com o metodo <b>POST</b> informando os dados de registro, assim que autenticado copie o token que foi retornado e o informe nas requisições via postman com a opção <b>Bearer Token </b> selecionada</p>
+
+<p>Será disponibilizado no email uma collection do postman com todas as requisições e seus modelos, mas para maiores informações elas se encontram no arquivo <b>api.php (routes/api.php)</b></p>
