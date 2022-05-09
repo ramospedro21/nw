@@ -25,7 +25,7 @@ class ProductionsController extends Controller
             $query->orderBy('created_at', $request->orderBy);
         }
 
-        return $query->get();
+        return $query->paginate(Production::PER_PAGE);
     }
 
     /**

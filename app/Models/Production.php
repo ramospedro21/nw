@@ -11,6 +11,8 @@ class Production extends Model
     use HasFactory;
     use Softdeletes;
 
+    const PER_PAGE = 16;
+
     const TYPES = [
         0 => 'MOVIE',
         1 => 'SERIE'
